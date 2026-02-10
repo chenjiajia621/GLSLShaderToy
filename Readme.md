@@ -26,7 +26,7 @@
 * **Uniform 块**：必须使用 `layout(std140, binding = 0)` 定义 `UniformBlock`。
 * **采样器绑定**：`iChannel0` 到 `iChannel3` 必须依次绑定在 `binding = 1` 到 `4`。
 
-![Editor Template](pic/屏幕截图 2026-02-10 114421.png)
+![Editor Template](<pic/屏幕截图 2026-02-10 114421.png>)
 
 #### 3. 操作流程 (Workflow)
 项目采用“保存即生效”的逻辑，请遵循以下步骤：
@@ -35,7 +35,7 @@
 3. **关键步骤 - 保存 (Save)**：编辑完成后，**必须按下 `Ctrl + S`** 进行保存。
 4. **运行 (Run)**：点击侧边栏中的 **运行 (Run)** 按钮。此时系统会调用 `qsb` 重新编译并刷新渲染画面。
 
-![UI Preview](pic/屏幕截图 2026-02-10 113644.png)
+![UI Preview](<pic/屏幕截图 2026-02-10 113644.png>)
 
 #### 4. 关键按钮注释 (Key Components)
 
@@ -104,4 +104,4 @@ $$
     2. `otherInit.jpg` (辅助纹理)
     3. `picInit.jpg` (基础背景纹理)
 
-![Texture Assets Path](pic/屏幕截图 2026-02-10 115558.png)
+![Texture Assets Path](<pic/屏幕截图 2026-02-10 115558.png>)
